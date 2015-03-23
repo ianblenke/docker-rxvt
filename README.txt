@@ -1,6 +1,6 @@
-## ianblenke/rxvt
+## ianblenke/docker-rxvt
 
-An ubuntu based rxvt terminal
+An ubuntu based docker image for a rxvt terminal
 
     docker run -ti --rm --net=host -e DISPLAY=$DISPLAY -v ~/.Xauthority:/root/.Xauthority -v /tmp/.X11-unix:/tmp/.X11-unix ianblenke/rxvt rxvt
 
